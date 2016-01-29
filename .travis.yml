@@ -1,4 +1,2 @@
-before_install:
- - sudo apt-get install -qq clisp
 language: cpp
 script: clisp -c hello hello.lisp && clisp hello.fas
